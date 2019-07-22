@@ -318,7 +318,7 @@ body {
 
 .expanded #left, .expanded #right {
 	transition-duration: 500ms;
-	bottom: 50px;
+	bottom: 3vh;
 }
 
 .expanded .view-more-button:hover {
