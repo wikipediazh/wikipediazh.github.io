@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Literata|Noto+Sans:400,700&display=swap" rel="stylesheet">
+
+	<!-- js -->
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<!-- data -->
+	<title>Wikipedia-zh</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="icon" type="image/png" href="favicon.png" /> -->
+	<!-- <meta name="robots" content="noindex"> -->
+	<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+</head>
+<body>
+	<main id="icons-container">
+		<div id="x-cushion" class="noselect">
+			<div>
+				<span>燃灯's</span>
+				<span>ICONs & LOGOs</span>
+			</div>
+		</div>
+	</main>
+	<div id="inspector">
+		<div id="background-blur"></div>
+		<div class="shadowed" id="image"></div>
+		<div id="text-instructions">
+			<div id="title"></div>
+			<table>
+				<tr>
+					<td class="item-name" title="Description.">DESC.</td>
+					<td id="description"></td>
+				</tr>
+				<tr>
+					<td class="item-name" title="Author.">AU.</td>
+					<td ><span id="author"></span>
+				</tr>
+				<tr class="shown-when-expanded">
+					<td class="item-name" title="Date of creation.">DATE</td>
+					<td ><span id="date"></span>
+				</tr>
+				<tr>
+					<td class="item-name" title="Source.">SRC.</td>
+					<td id="source"></td>
+				</tr>
+				<tr class="shown-when-expanded">
+					<td class="item-name" title="The creation of this media.">CR8.</td>
+					<td ><span id="cr8"></span>
+				</tr>
+				<tr class="shown-when-expanded">
+					<td class="item-name" title="Tool used to generate this media.">TOOL</td>
+					<td ><span id="tool"></span>
+				</tr>
+				<tr>
+					<td class="item-name" title="License.">LIC.</td>
+					<td id="license"></td>
+				</tr>
+			</table>
+		<a id="secondDownloadButton" href="#">Download</a>
+		</div>		
+
+		<div id="buttons-container">
+			<a id="download-button" href="#">Download</a>
+			<a id="more-button" href="#">More Info</a>
+		</div>
+
+		<a href="#" class="view-more-button" id="x"></a>
+		<a class="view-more-button" id="left"></a>
+		<a class="view-more-button" id="right"></a>
+	</div>
+	<div id="mobile-warning">
+		<div>This site does not support mobile devices. Why? Cuz I have too many books to read.</div>
+	</div>
+</body>
+</html>
