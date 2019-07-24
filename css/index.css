@@ -162,9 +162,6 @@ body {
 	position: absolute;
 	transition: ease-out 300ms;
 	font-size: 110%;
-	height: 100%;
-	overflow-y: auto;
-	padding-bottom: 20px;
 }
 
 #text-instructions div {
