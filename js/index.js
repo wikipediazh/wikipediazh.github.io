@@ -202,7 +202,7 @@ var icons = [
 		"source": "self-published",
 		"author": "燃灯",
 		"license": ["CC-BY-SA 4.0", "PewDiePie"],
-		"description": "A speaker.",
+		"description": "A pile of books, with a 'reflist' card on the top.",
 		"image": "Books.svg",
 		"date": "March 22 2019",
 		"tool": "Sketch",
