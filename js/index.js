@@ -345,7 +345,7 @@ var icons = [
 		"source": "self-published",
 		"author": "燃灯",
 		"license": ["CC-BY-SA 4.0", "NARUTO"],
-		"description": "The Vitruvian Man with the circle in the back giving a hint of the blue marble. ",
+		"description": "A white heart with two black chains and one IV tube.",
 		"image": "Lonely Heart.svg",
 		"date": "April 3 2019",
 		"tool": "Sketch",
