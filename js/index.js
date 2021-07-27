@@ -425,11 +425,11 @@ var icons = [
         source: 'self-published',
         author: '燃灯',
         license: ['CC-BY-SA 4.0', 'Ranquan-0'],
-        description: 'Two white arcs surrounding a dark grey podium.',
+        description: 'A palette, a painting brush and a ruler.',
         image: 'Art.svg',
         date: 'March 27 2019',
         tool: 'Sketch',
-        creation: 'An overly-simlified presentation of the European Parliament.',
+        creation: 'N/A',
     },
     {
         title: 'Justice and Fairness',
